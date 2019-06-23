@@ -1,2 +1,2 @@
-# alfred_merge_images
-A work flow to merge multiple images into a single PDF
+# Merge images
+A file-action triggered work flow to merge multiple images into a single PDF. The heavy lifting is handled by a Python script exploiting the img2pdf library. Select either multiple indivdual images or a folder containing images and the will all get bundled into a single time-stamped PDF placed on the desktop. Note that some PNG images contain an alpha channel that must be removed beforehand.  
